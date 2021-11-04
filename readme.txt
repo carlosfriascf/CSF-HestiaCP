@@ -24,7 +24,7 @@ Note: The SSH configured port in the optimized configuration are 22, 2222 and 22
 
 Run
 
-sed -i '/fas fa-cog/a\                                        <div class="l-menu__item <?php if(\$TAB == \x27CSF\x27 ) echo \x27l-menu__item--active\x27 ?>"><a href="\/list\/csf\/"><?=_(\x27CSF\x27)?><\/a><\/div>' /usr/local/hestia/web/templates/includes/panel.html;
+sed -i '/csf/d' /usr/local/hestia/web/templates/includes/panel.html; sed -i '/fas fa-cog/a\                                        <div class="l-menu__item <?php if(\$TAB == \x27CSF\x27 ) echo \x27l-menu__item--active\x27 ?>"><a href="\/list\/csf\/"><?=_(\x27CSF\x27)?><\/a><\/div>' /usr/local/hestia/web/templates/includes/panel.html;
 
 OR
 
