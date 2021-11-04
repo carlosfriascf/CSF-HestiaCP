@@ -1,1 +1,1 @@
-ConfigServer Security & Firewall (csf) for HestiaCP
+ConfigServer Security & Firewall (CSF) for Hestia Control Panel (HestiaCP)
