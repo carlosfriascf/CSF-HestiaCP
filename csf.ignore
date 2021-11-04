@@ -1,0 +1,35 @@
+###############################################################################
+# Copyright 2006-2018, Way to the Web Limited
+# URL: http://www.configserver.com
+# Email: sales@waytotheweb.com
+###############################################################################
+# The following IP addresses will be ignored by all lfd checks
+# One IP address per line
+# CIDR addressing allowed with a quaded IP (e.g. 192.168.254.0/24)
+# Only list IP addresses, not domain names (they will be ignored)
+#
+
+127.0.0.1
+
+173.245.48.0/20 # CLOUDFLARE
+103.21.244.0/22 # CLOUDFLARE
+103.22.200.0/22 # CLOUDFLARE
+103.31.4.0/22 # CLOUDFLARE
+141.101.64.0/18 # CLOUDFLARE
+108.162.192.0/18 # CLOUDFLARE
+190.93.240.0/20 # CLOUDFLARE
+188.114.96.0/20 # CLOUDFLARE
+197.234.240.0/22 # CLOUDFLARE
+198.41.128.0/17 # CLOUDFLARE
+162.158.0.0/15 # CLOUDFLARE
+104.16.0.0/13 # CLOUDFLARE
+104.24.0.0/14 # CLOUDFLARE
+172.64.0.0/13 # CLOUDFLARE
+131.0.72.0/22 # CLOUDFLARE
+2400:cb00::/32 # CLOUDFLARE
+2606:4700::/32 # CLOUDFLARE
+2803:f800::/32 # CLOUDFLARE
+2405:b500::/32 # CLOUDFLARE
+2405:8100::/32 # CLOUDFLARE
+2a06:98c0::/29 # CLOUDFLARE
+2c0f:f248::/32 # CLOUDFLARE
