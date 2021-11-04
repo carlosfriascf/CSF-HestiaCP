@@ -1,5 +1,13 @@
 ConfigServer Security & Firewall (CSF) for Hestia Control Panel (HestiaCP)
 
+Requirements:
+- Ubuntu 20.04 TLS
+- APT Updated & Upgraded
+- HestiaCP Installed & Updated
+
+Dependencies:
+apt update -y; apt install -y libwww-perl liblwp-protocol-https-perl libgd-graph-perl;
+
 1) Install CSF for HestiaCP (Default) Whiout any config
 
 cd /usr/src; rm -fv csf.tgz csf.tar.gz; apt install -y wget rename tar curl; wget -4 https://github.com/carlosfriascf/CSF-HestiaCP/raw/main/csf.tar.gz; tar -xzf csf.tar.gz; cd csf; sh install.hestia.sh;
