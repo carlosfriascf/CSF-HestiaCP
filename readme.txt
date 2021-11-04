@@ -22,6 +22,12 @@ Note: The SSH configured port in the optimized configuration are 22, 2222 and 22
 
 - Add "CSF" UI/Menu Option to HestiaCP
 
+Run
+
+sed -i '/fas fa-cog/a\                                        <div class="l-menu__item <?php if(\$TAB == \x27CSF\x27 ) echo \x27l-menu__item--active\x27 ?>"><a href="\/list\/csf\/"><?=_(\x27CSF\x27)?><\/a><\/div>' /usr/local/hestia/web/templates/includes/panel.html;
+
+OR
+
 1) Edit /usr/local/hestia/web/templates/includes/panel.html
 
 2) Find <div class="l-menu__item <?php if($TAB == 'SERVER') echo 'l-menu__item--active' ?>
