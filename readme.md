@@ -1,4 +1,4 @@
-ConfigServer Security & Firewall (CSF) for Hestia Control Panel (HestiaCP)
+Install ConfigServer Security & Firewall (CSF) for Hestia Control Panel (HestiaCP)
 
 Requirements:
 - Ubuntu 20.04 TLS
